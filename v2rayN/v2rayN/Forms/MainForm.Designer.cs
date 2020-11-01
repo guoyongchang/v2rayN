@@ -37,6 +37,7 @@
             this.menuAddVlessServer = new System.Windows.Forms.ToolStripMenuItem();
             this.menuAddShadowsocksServer = new System.Windows.Forms.ToolStripMenuItem();
             this.menuAddSocksServer = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuAddTrojanServer = new System.Windows.Forms.ToolStripMenuItem();
             this.menuAddCustomServer = new System.Windows.Forms.ToolStripMenuItem();
             this.menuAddServers = new System.Windows.Forms.ToolStripMenuItem();
             this.menuScanScreen = new System.Windows.Forms.ToolStripMenuItem();
@@ -184,6 +185,7 @@
             this.menuAddVlessServer,
             this.menuAddShadowsocksServer,
             this.menuAddSocksServer,
+            this.menuAddTrojanServer,
             this.menuAddCustomServer,
             this.menuAddServers,
             this.menuScanScreen,
@@ -240,6 +242,12 @@
             this.menuAddSocksServer.Name = "menuAddSocksServer";
             resources.ApplyResources(this.menuAddSocksServer, "menuAddSocksServer");
             this.menuAddSocksServer.Click += new System.EventHandler(this.menuAddSocksServer_Click);
+            // 
+            // menuAddTrojanServer
+            // 
+            resources.ApplyResources(this.menuAddTrojanServer, "menuAddTrojanServer");
+            this.menuAddTrojanServer.Name = "menuAddTrojanServer";
+            this.menuAddTrojanServer.Click += new System.EventHandler(this.menuAddTrojanServer_Click);
             // 
             // menuAddCustomServer
             // 
@@ -980,6 +988,7 @@
     private System.Windows.Forms.ToolStripMenuItem menuGithubFetch;
     private System.Windows.Forms.ToolStripMenuItem menuGithubSettings;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator14;
+        private System.Windows.Forms.ToolStripMenuItem menuAddTrojanServer;
     }
 }
 
